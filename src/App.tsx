@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'antd';
 import './App.scss';
 
 const App: React.FC = () => {
@@ -16,6 +17,7 @@ const App: React.FC = () => {
         >
           Learn React
         </a>
+        <Button type="primary">Primary</Button>
       </header>
     </div>
   );
